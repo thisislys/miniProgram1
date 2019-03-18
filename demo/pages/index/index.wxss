@@ -1,0 +1,47 @@
+/* .box{
+  display: flex;
+  flex-direction: column;
+  background: #eee;
+  height: 100%;
+  width: 100%;
+} */
+
+.head {
+  height: 300rpx;
+  width: 100%;
+  background: #5e3862;
+  margin-bottom: 150rpx;
+}
+
+.head>image {
+  height: 400rpx;
+  width: 90%;
+  border-radius: 20rpx;
+  margin-left: 5%;
+}
+
+/* .body{
+  flex: 1;
+  background: #eee;
+} */
+
+.con {
+  height: 300rpx;
+  width: 90%;
+  margin-left: 5%;
+  background: #eee;
+  margin-top: 50rpx;
+  padding-left: 20rpx;
+}
+
+.con>text {
+  display: block;
+  height: 90rpx;
+  line-height: 90rpx;
+  color: #777;
+}
+
+.con>.tit {
+  font-size: 26rpx;
+  color: #000;
+}

@@ -1,0 +1,56 @@
+/* pages/mine/mine.wxss */
+
+.con text {
+  color: #777;
+  font-size: 34rpx;
+  display: block;
+  height: 70rpx;
+  line-height: 70rpx;
+}
+
+.nav {
+  display: flex;
+}
+
+
+
+.nav>view {
+  display: block;
+  height: 90rpx;
+  line-height: 90rpx;
+  flex: 1;
+  text-align: center;
+}
+
+.active {
+  color: purple;
+  border-bottom: 4rpx solid purple;
+}
+
+.con {
+  margin-top: 50rpx;
+  width: 90%;
+  margin-left: 5%;
+}
+
+.head {
+  display: flex;
+  justify-content: space-between;
+}
+
+.date {
+  font-size: 36rpx;
+  font-weight: bold;
+}
+
+.set {
+  width: 96%;
+  margin-left: 2%;
+  margin-top: 30rpx;
+  background: red;
+  color: #fff;
+  height: 100rpx;
+  border-radius: 10rpx;
+  line-height: 100rpx;
+  text-align: center;
+}

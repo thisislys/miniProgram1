@@ -1,0 +1,13 @@
+<view class='head'>
+  <image src="./img/img.png"></image>
+</view>
+  <view class='con'>
+    <text class='tit'>校园参观</text>
+    <text bindtap='vita'>预约管理·个人预约</text>
+    <text bindtap='mine'>预约管理·我的预约</text>
+  </view>
+  <view class='con'>
+    <text class='tit'>发现精彩</text>
+    <text>游览服务·校园游览</text>
+    <text>游览服务·参观须知</text>
+  </view>

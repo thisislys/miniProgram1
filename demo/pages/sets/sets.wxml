@@ -1,0 +1,21 @@
+
+<view class='nav'>
+<view class='{{index==idx?"active":""}}' bindtap='flag' wx:key="{{index}}" wx:for="{{nav}}">
+  <text data-idx="{{index}}">{{item}}</text>
+</view>
+</view>
+<view class='con'>
+  <view class='head'>
+    <text class='date'>日期:{{userinfo.data.time}}</text>
+    <text>预约成功</text>
+  </view>
+  <view>
+    <text>时间:{{userinfo.time.time}}</text>
+    <text>预约人:{{userinfo.userinfo.name}}{{userinfo.userinfo.id}}</text>
+    <text>进可删除同行人或取消预约</text>
+  </view>
+  <view class='set' bindtap='clear'>
+    取消预约
+
+  </view>
+</view>

@@ -1,0 +1,31 @@
+<view class='info'>
+  <view>
+    <text class='name'>{{userInfo.name}}</text>
+    <text class='id'>居民身份证：{{userInfo.id}}</text>
+  </view>
+  <text bindtap=''>修改身份</text>
+</view>
+<view class='time'>
+  <view class='date'>
+    <text class='tit'>预约日期</text>
+    <view class='newdate'>
+      <view bindtap='flag' id='{{index==idx?"active":""}}' wx:key="{{index}}" wx:for="{{date}}">
+        <text data-idx="{{index}}">{{item.time}}</text>
+        <text data-idx="{{index}}">{{item.state}}</text>
+      </view>
+    </view>
+  </view>
+  <view class='times'>
+    <text class='tit'>入校时间</text>
+    <view class='block'>
+      <view class='newdate' wx:if="{{flag}}">
+        <view bindtap='time'  id='{{index==idx2?"active":""}}'  wx:key="{{index}}" wx:for="{{time}}">
+          <text data-time="{{index}}">{{item.time}}</text>
+          <text data-time="{{index}}">{{item.state}}</text>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>
+<view class='msg'>同行人信息</view>
+<view class='btn' bindtap='btn'>预约</view>

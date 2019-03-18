@@ -1,0 +1,103 @@
+.info {
+  display: flex;
+  height: 150rpx;
+  width: 90%;
+  margin-left: 5%;
+  border-radius: 20rpx;
+  margin-top: 20rpx;
+  background: #eee;
+  padding-left: 20rpx;
+  padding-top: 20rpx;
+}
+
+.info>view>text {
+  display: flex;
+}
+
+.tit {
+  font-size: 30rpx;
+  color: #000;
+  font-weight: bold;
+}
+
+.name {
+  font-size: 40rpx;
+  font-weight: bolder;
+}
+
+.id {
+  font-size: 30rpx;
+  color: #777;
+  margin-top: 30rpx;
+}
+
+.info>text {
+  display: inline-block;
+  margin-left: 60rpx;
+  margin-top: 40rpx;
+  border: 2rpx solid purple;
+  color: purple;
+  height: 70rpx;
+  width: 200rpx;
+  border-radius: 50rpx;
+  text-align: center;
+  line-height: 70rpx;
+}
+
+.btn {
+  height: 100rpx;
+  border-radius: 20rpx;
+  background: purple;
+  width: 90%;
+  margin-left: 5%;
+  margin-top: 30rpx;
+  text-align: center;
+  line-height: 100rpx;
+  color: #fff;
+}
+
+.time {
+  width: 90%;
+  margin-left: 5%;
+  margin-top: 30rpx;
+}
+
+.newdate {
+  height: 250rpx;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.newdate>view {
+  display: block;
+  font-size: 30rpx;
+  text-align: center;
+  color: #777;
+}
+
+.date>view.newdate>view#active,.newdate>view#active {
+  border: 2rpx solid purple;
+  color: purple !important;
+}
+
+
+.newdate>view {
+  border-radius: 20rpx;
+  border: 2rpx solid #ccc;
+  height: 90rpx;
+  width: 160rpx;
+  margin-left: 5rpx;
+  margin-top: 20rpx;
+}
+
+.times text {
+  font-size: 28rpx;
+}
+
+.block {
+  height: 200rpx;
+}
+
+.msg {
+  padding-left: 40rpx;
+}

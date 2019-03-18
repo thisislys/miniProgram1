@@ -1,0 +1,71 @@
+/* pages/mine/mine.wxss */
+
+.con text {
+  color: #777;
+  font-size: 34rpx;
+  display: block;
+  height: 70rpx;
+  line-height: 70rpx;
+}
+.center{
+  position: fixed;
+  font-size: 40rpx;
+  top: 500rpx;
+  display: block;
+  text-align: center;
+  width: 100%;
+}
+.nav, .set {
+  display: flex;
+}
+.set{
+  margin-top:50rpx;
+
+}
+.set>text {
+  line-height: 80rpx;
+  height: 80rpx;
+  font-size: 30rpx;
+}
+
+.nav>view {
+  display: block;
+  height: 90rpx;
+  line-height: 90rpx;
+  flex: 1;
+  text-align: center;
+}
+
+.active {
+  color: purple;
+  border-bottom: 4rpx solid purple;
+}
+
+.con {
+  margin-top: 50rpx;
+  width: 90%;
+  margin-left: 5%;
+}
+
+.head {
+  display: flex;
+  justify-content: space-between;
+}
+
+.date {
+  font-size: 36rpx;
+  font-weight: bold;
+}
+
+.set>.settab {
+  font-size: 36rpx;
+  color: purple;
+  border: 2rpx solid purple;
+  border-radius: 50rpx;
+  height: 80rpx;
+  line-height: 80rpx;
+  width: 160rpx;
+  text-align: center;
+  margin:0 20rpx;
+
+}

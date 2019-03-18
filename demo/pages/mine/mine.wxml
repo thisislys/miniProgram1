@@ -1,0 +1,25 @@
+<view class='nav'>
+  <view class='{{index==idx?"active":""}}' bindtap='flag' wx:key="{{index}}" wx:for="{{nav}}">
+    <text data-idx="{{index}}">{{item}}</text>
+  </view>
+</view>
+
+<view class='con' wx:if="{{userinfo.data}}">
+  <view>
+    <view class='head'>
+      <text class='date'>日期:{{userinfo.data.time}}</text>
+      <text>预约成功</text>
+    </view>
+    <view>
+      <text>时间:{{userinfo.time.time}}</text>
+      <text>预约人:{{userinfo.userinfo.name}}{{userinfo.userinfo.id}}</text>
+      <text>请您带有效证件按时参观</text>
+    </view>
+  </view>
+  <view class='set'>
+    <text bindtap='set' class='settab'>修改</text>
+    <text>参观当日无法取消，请务必提前取消</text>
+
+  </view>
+</view>
+<view wx:else class='center'>您还没有预约o~</view>

@@ -1,0 +1,28 @@
+/* pages/set/set.wxss */
+.info{
+  margin-top: 20rpx;
+  margin-left: 40rpx;
+}
+text{
+  color: #777;
+  display: block;
+  height: 60rpx;
+  line-height: 60rpx;
+  font-size: 30rpx;
+
+}
+.btn {
+  height: 100rpx;
+  border-radius: 20rpx;
+  background: purple;
+  width: 90%;
+  margin-left: 5%;
+  margin-top: 30rpx;
+  text-align: center;
+  line-height: 100rpx;
+  color: #fff;
+}
+.tit{
+  font-size: 36rpx;
+  color: #000;
+}

@@ -1,0 +1,8 @@
+<!--pages/set/set.wxml-->
+<view class='info'>
+  <text class='tit'>预约信息</text>
+  <text>{{info.name}} {{info.id}}</text>
+  <text>预约日期：{{mydate.time}}</text>
+  <text>预约时间：{{mytime.time}}</text>
+</view>
+<view class='btn' bindtap='btn'>确认预约</view>
